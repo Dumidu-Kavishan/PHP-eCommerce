@@ -1,0 +1,512 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    box-sizing: border-box;
+}
+
+.logo
+{
+    padding: 71px;
+    margin: 7px;
+}
+
+.search-bar
+{
+    margin-left: 690px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.container-1
+{
+    width: 350px;
+    height: 15px;
+    border: 03px solid #8C2323;
+    padding: 9px;
+    border-radius: 350px;
+    margin: 0px;  
+    padding-left: 30px;  
+    background: azure;
+}
+
+input
+{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 330px;
+    font-size: 17px;
+    margin-top: -25px;
+    color: black;
+    
+}
+#logo
+{
+    padding: 7px;
+    margin: 7px;
+    margin-top: -75px;
+}
+
+.button-login
+{
+    display: inline-flex;
+    height: 45px;
+    width: 135px;
+    padding: 0;
+    background: #8C2323;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.button-login:hover
+{
+    background: #dd0b0b;
+}
+.button-login:active
+{
+    background: #35dd0b;
+}
+.button__text
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    color: azure;
+    height: 100%;
+
+}
+.button__icon
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    color: rgb(2, 255, 255);
+    height: 100%;
+}
+.button__text:hover
+{
+    text-decoration: underline;
+    color: aqua;
+}
+
+
+.button-signup
+{
+    display: inline-flex;
+    height: 45px;
+    width: 135px;
+    padding: 0;
+    background: #8C2323;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.button-signup:hover
+{
+    background: #dd0b0b;
+}
+.button-signup:active
+{
+    background: #35dd0b;
+}
+.button__text
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    color: azure;
+    height: 100%;
+
+}
+.button__icon
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    color: rgb(2, 255, 255);
+    height: 100%;
+    font-size: 20px;
+}
+.button__text:hover
+{
+    text-decoration: underline;
+    color: aqua;
+}
+.signup
+{
+    padding-left: 145px;
+    margin-top: -45px;
+}
+#log-reg
+{
+    padding-left: 1110px;
+    margin-top: -77px;
+}
+
+.button-cart
+{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    background: #58a027;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.button-cart:hover{
+    background-color: #35dd0b;
+}
+
+.cart__icon
+{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    font-size: 33px
+    
+}
+
+.cart
+{
+    padding-left: 1410px;
+    margin-top: -45px;
+}
+
+.button-profile
+{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    background: #58a027;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.button-profile:hover{
+    background-color: #35dd0b;
+}
+
+.profile__icon
+{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    font-size: 33px
+    
+}
+
+.profile
+{
+    padding-left: 1465px;
+    margin-top: -45px;
+}
+.top-part{
+    width: 100%;
+    height: 100px;
+    background: gray; opacity:0.92;
+    box-shadow: 0px 2px;
+    
+    
+}
+/*--Top-part-(End)--*/
+/*--menu-bar(start)--*/
+.menu-bar
+{
+    background-color:grey; opacity:0.8;
+    text-align: center;
+    margin-top: 5px;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    color:azure;
+    list-style: none;
+    font-size: 17px;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 7px;
+    padding: 3px;
+    
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:azure;
+}
+.active, .menu-bar ul li a:hover
+{
+    color: #8C2323;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background:gray;
+    margin-top: 0px;
+    margin-left: -25px;
+  
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+/*--menu-bar-(end)--*/
+
+
+
+
+/*--user account section(start)--*/
+.user-account-main-fream
+{
+    width: 1400px;
+    height: 700px;
+    background: #1e1342;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.detail-container-1
+{
+    width: 350px;
+    height: 650px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background: #35dd0b;
+    position: absolute;
+}
+.detail-container-2
+{
+    width: 975px;
+    height: 650px;
+    margin-left: 400px;
+    margin-top: 25px;
+    background: #35dd0b;
+    position: absolute;
+}
+.sub-detail-container-1
+{
+    width: 500px;
+    height: 650px;
+    background: #dd0b0b;
+    position: absolute;
+}
+.sub-detail-container-2
+{
+    width: 475px;
+    height: 400px;
+    background: blueviolet;
+    margin-left: 500px;
+}
+.sub-detail-container-3
+{
+    width: 475px;
+    height: 250px;
+    background: cornflowerblue;
+    margin-left: 500px;
+}
+.profile-picture-fream
+{
+    width: 250px;
+    height: 250px;
+    background: #8C2323;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.wellcome-txt
+{
+    margin-left: 95px;
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 500;
+    color: azure;
+    position: absolute;
+}
+.name-txt
+{
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: 500;
+    color: azure;
+    position: absolute;
+}
+.btns-profile
+{
+    margin-left: 70px;
+    margin-top: 95px;
+}
+.button-general-user-account
+{
+    width: 200px;
+    height: 45px;
+    background: antiquewhite;
+    border-radius: 14px;
+}
+.button-My-Orders-user-account
+{
+    width: 200px;
+    height: 45px;
+    background: antiquewhite;
+    position: absolute;
+    border-radius: 14px;
+}
+.button-messages-user-account
+{
+    width: 200px;
+    height: 45px;
+    background: antiquewhite;
+    position: absolute;
+    margin-top: 25px;
+    border-radius: 14px;
+}
+.box-text
+{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.user-account form h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:var(--black);
+    text-transform: uppercase;
+    font-size: 3rem;
+ }
+ 
+ .user-account form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+ }
+ 
+ .user-account form .flex .inputBox{
+    flex:1 1 40rem;
+ }
+ 
+ .user-account form .flex span{
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .user-account form .flex select,
+ .user-account form .flex input{
+    border:var(--border);
+    width: 100%;
+    border-radius: .5rem;
+    width: 100%;
+    background-color: var(--white);
+    padding:1.2rem 1.4rem;
+    font-size: 1.8rem;
+    margin:1rem 0;
+ }
+ .Title-account
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background: #35dd0b;
+}
+.user-Name
+{
+    font-size: 20px;
+    font-weight: 300;
+    background: azure;
+}
+
+/*--user account section(end)--*/
+
+/*--footer section (start)--*/
+#footer-section
+{
+    margin-top: 30px;
+    margin-left: 65px;
+}
+.footer-main-fream
+{
+    width: 1400px;
+    height: 350px;
+    background: #8C2323;
+}
+
+.info-container
+{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.sub-container-info
+{
+    width: 325px;
+    height: 250px;
+    background: #58a027;
+    margin-left: 17px;
+    border-radius: 12px;
+}
+.info
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.title-info
+{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.footer-links
+{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.link-style
+{
+    font-size: 17px;
+
+}
+.link-style:hover
+{
+    font-size: 19px;
+    text-decoration: underline;
+}
+.info-txt
+{
+    color: #1e1342;
+    font-weight: 300;
+
+}
+
+/*--user Account style--*/
+
+.tx1{
+
+    background-color: #35dd0b;
+    width: 200px;
+    height: 400px;
+    
+}

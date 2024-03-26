@@ -1,0 +1,58 @@
+input[type=text], input[type=password]{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.form-main-fream
+{
+    width: 700px;
+    height: auto;
+    
+    margin-left: 715px;
+    margin-top: 25px;
+    border-style: dotted;
+    padding: 20px 20px;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}  
+.logingbtn{
+    border-radius: 25px;
+    background-color: lightcoral;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 2px solid#FF0000;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+    width: 250px;
+}
+.logingbtn:hover {
+    background-color: red;
+    opacity: 3;
+}
+/*--banner (start)--*/
+.banner-fream
+{
+    width: 600px;
+    height: 400px;
+    background: #1e1342;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 8px;
+}
+/*--banner (end)--*/
+
+/*--banner image (start)--*/
+.banner-img
+{
+
+    width: 200px;
+    height: 300px;
+}
+/*--banner image (end)--*/
